@@ -1,0 +1,968 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-11-24 18:00+0800\n"
+"PO-Revision-Date: 2016-12-13 10:00+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: C:\\Users\\PAULA\\Desktop\\refleTranslate\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: translate.php:4
+msgid "TOP PAGE"
+msgstr "トップページ"
+
+#: translate.php:5
+msgid "Price List"
+msgstr "料金表"
+
+#: translate.php:6
+msgid "Cast List"
+msgstr "キャスト一覧"
+
+#: translate.php:7
+msgid "Usage"
+msgstr "ご利用ガイド"
+
+#: translate.php:8
+msgid "Point Charge"
+msgstr "ポイントチャージ"
+
+#: translate.php:9
+msgid "Login"
+msgstr "ログイン"
+
+#: translate.php:10
+msgid "Help Guide"
+msgstr "ヘルプガイド"
+
+#: translate.php:11
+msgid "Ikebukuro"
+msgstr "池袋"
+
+#: translate.php:12 translate.php:36
+msgid "Akihabara"
+msgstr "秋葉原"
+
+#: translate.php:13 translate.php:38
+msgid "Shibuya"
+msgstr "渋谷"
+
+#: translate.php:14 translate.php:37
+msgid "Shinjuku"
+msgstr "新宿"
+
+#: translate.php:15 translate.php:39
+msgid "Gotanda"
+msgstr "五反田"
+
+#: translate.php:16
+msgid "Type Cute"
+msgstr "カワイイ系"
+
+#: translate.php:17
+msgid "Type Clean"
+msgstr "清楚系"
+
+#: translate.php:18
+msgid "Type Relax"
+msgstr "癒し系"
+
+#: translate.php:19
+msgid "Type Big Sister"
+msgstr "お姉さん系"
+
+#: translate.php:20
+msgid "Type Sexy"
+msgstr "セクシー系"
+
+#: translate.php:21
+msgid "Type Young Face"
+msgstr "童顔系"
+
+#: translate.php:22
+msgid "Type Strange"
+msgstr "不思議系"
+
+#: translate.php:23
+msgid "Search"
+msgstr "検索"
+
+#: translate.php:24
+msgid "Month"
+msgstr "月"
+
+#: translate.php:25
+msgid "Day"
+msgstr "日"
+
+#: translate.php:26
+msgid "Mon"
+msgstr "月"
+
+#: translate.php:27
+msgid "Tue"
+msgstr "火"
+
+#: translate.php:28
+msgid "Wed"
+msgstr "水"
+
+#: translate.php:29
+msgid "Thu"
+msgstr "木"
+
+#: translate.php:30
+msgid "Fri"
+msgstr "金"
+
+#: translate.php:31
+msgid "Sat"
+msgstr "土"
+
+#: translate.php:32
+msgid "Sun"
+msgstr "日"
+
+#: translate.php:33
+msgid "Can meet soon \"Today\""
+msgstr "「今日」今すぐ会える"
+
+#: translate.php:34 translate.php:47
+msgid "Chelko"
+msgstr "ちぇるこ"
+
+#: translate.php:35
+msgid "Cut Over 20 Characters"
+msgstr "最大20文字でカット最大20文字でカット･･･"
+
+#: translate.php:40
+msgid "Inner 23 Wards"
+msgstr " 23区内 "
+
+#: translate.php:41
+msgid "West Tokyo"
+msgstr "西東京"
+
+#: translate.php:42
+msgid "Area"
+msgstr "エリア"
+
+#: translate.php:43
+msgid "Information From Chelpapa"
+msgstr "ちぇるぱぱからのお知らせ"
+
+#: translate.php:44
+msgid "Information for System Maintenance"
+msgstr "システムメンテナンスのお知らせ"
+
+#: translate.php:45
+msgid "If Forgot Password"
+msgstr "パスワードを忘れた方はこちら"
+
+#: translate.php:46
+msgid "About Point"
+msgstr "ポイントについてはこちら"
+
+#: translate.php:48
+msgid "Text for About 12 Characters"
+msgstr "12文字程度のテキスト･･･"
+
+#: translate.php:49
+msgid "Company Informations"
+msgstr "会社概要"
+
+#: translate.php:50
+msgid "Member Rules"
+msgstr "会員規約"
+
+#: translate.php:51
+msgid "Privacy Policy"
+msgstr "個人情報保護に関して"
+
+#: translate.php:52
+msgid "Information for Sales Company"
+msgstr "特定商取引に基づく表記"
+
+#: translate.php:53
+msgid "Wanted Agents"
+msgstr "代理店募集"
+
+#: translate.php:54
+msgid "Registered type Refle Matching Site[Chelpapa]"
+msgstr "登録型リフレマッチングサイト【ちぇるぱぱ】"
+
+#: translate.php:55
+msgid "Wanted Girls | Registered type Refle Matching Site[Chelpapa]"
+msgstr "女の子募集 | 登録型リフレマッチングサイト【ちぇるぱぱ】"
+
+#: translate.php:56
+msgid "Wanted Girls"
+msgstr "女の子募集"
+
+#: translate.php:57
+msgid "Name"
+msgstr "お名前"
+
+#: translate.php:58
+msgid "Required"
+msgstr "必須"
+
+#: translate.php:59
+msgid "Please Input 2Byte Charactor"
+msgstr "※全角文字で入力してください"
+
+#: translate.php:60
+msgid "Phonetic"
+msgstr "フリガナ"
+
+#: translate.php:61
+msgid "Please Input 2Byte Character's Phonetic"
+msgstr "※全角カタカナで入力してください"
+
+#: translate.php:62
+msgid "Birthday"
+msgstr "生年月日"
+
+#: translate.php:63 usprofile.html:81
+msgid "Mail Address"
+msgstr "メールアドレス"
+
+#: translate.php:64
+msgid "Please input can approach Mail Address"
+msgstr ""
+"※連絡が取れるメールアドレスを入力してください（PC、携帯どちらでも可能です）"
+
+#: translate.php:65
+msgid "Please input Single Byte alphabet and number"
+msgstr "※半角英数字で入力してください"
+
+#: translate.php:66
+msgid "Telephone Number"
+msgstr "電話番号"
+
+#: translate.php:67
+msgid "ex: 0123456789 (Single Charactor and no need space and hyphen)"
+msgstr "例：0123456789（半角数字でスペース、ハイフンは不要です）"
+
+#: translate.php:68
+msgid "Please input can approach Telephone Number"
+msgstr "※連絡が取れる電話番号を入力してください"
+
+#: translate.php:69
+msgid "Questions"
+msgstr "ご質問等"
+
+#: translate.php:70
+msgid "Any"
+msgstr "任意"
+
+#: translate.php:71
+msgid "Please Input for Questions"
+msgstr "※不明点等ございましたらご記入ください。"
+
+#: translate.php:72 translate.php:81 translate.php:87
+msgid "Image File"
+msgstr "画像ファイル"
+
+#: translate.php:73
+msgid "Please photograph your identity card up for confirmation."
+msgstr "ご本人様確認のため身分証明書をアップで撮影してください。"
+
+#: translate.php:74
+msgid "Valid Identitiy Card"
+msgstr "【有効な証明書】"
+
+#: translate.php:75
+msgid "Driver license"
+msgstr "運転免許証"
+
+#: translate.php:76
+msgid "My Number Card"
+msgstr ""
+"個人番号カード(表面) ※マイナンバーが記載されている裏面は送付しないでください"
+
+#: translate.php:77
+msgid "Basic Resident Register Card with Photo"
+msgstr "写真付き住民基本台帳カード"
+
+#: translate.php:78
+msgid "Passport"
+msgstr "パスポート"
+
+#: translate.php:79
+msgid "Student card(Student only)"
+msgstr "学生証（大学・専門・高専・定時制・通信のみ）"
+
+#: translate.php:80
+msgid "Image File 1"
+msgstr "画像ファイル1"
+
+#: translate.php:82
+msgid "Warning"
+msgstr "注意"
+
+#: translate.php:83
+msgid "If my numbercard use, dont send backside Picture"
+msgstr ""
+"※個人番号カードでの応募の場合、マイナンバーが記載されている裏面は送付しないで"
+"ください"
+
+#: translate.php:84
+msgid ""
+"If Drivers License Card Front side and Back Side different name, please send "
+"Back Side Picture"
+msgstr "※運転免許の表面と裏面で氏名が異なる場合のみ裏面も撮影してください。"
+
+#: translate.php:85
+msgid "If dont change name, no need backside"
+msgstr "※氏名に変更がない場合は裏面の撮影不要です"
+
+#: translate.php:86
+msgid "Image File 2"
+msgstr "画像ファイル2"
+
+#: translate.php:88
+msgid "Please take a Picture your identity card  and Your Face"
+msgstr "身分証明書(表面)と、顔が一緒に写った状態で撮影してください。"
+
+#: translate.php:89
+msgid ""
+"Please photograph with the identification card (front side) and the face "
+"taken together"
+msgstr "顔が全て確認できる状態で、身分証明書をお持ちください。"
+
+#: translate.php:90
+msgid "If cant see your face or Identity Card, Invalid Registrations"
+msgstr ""
+"身分証明書で顔が隠れてしまっていたり、証明書が写ってない場合は無効となりま"
+"す。"
+
+#: translate.php:91
+msgid "Image File3"
+msgstr "画像ファイル3"
+
+#: translate.php:92
+msgid ""
+"Send Mail at 3 minutes after registered automatic. If can't Receive It's "
+"possible that mistake mail address"
+msgstr ""
+"ご相談メールを送信後3分以内に受付完了メールを自動配信いたします。メールが届か"
+"ない場合は、メールアドレスが間違っている可能性があります。恐れ入りますが、再"
+"度ご入力、ご送信をお願いします。"
+
+#: translate.php:93
+msgid "Confirm Input Data"
+msgstr "この内容で登録"
+
+#: translate.php:94
+msgid "Job Application"
+msgstr "募集"
+
+#: translate.php:95
+msgid "Therapist Job Application"
+msgstr "女の子募集"
+
+#: translate.php:96
+msgid "Temporary Password"
+msgstr "一時パスワード"
+
+#: translate.php:97 usprofile.html:77
+msgid "Username"
+msgstr "ユーザ名"
+
+#: translate.php:98
+msgid "Please click this link to login to your account:"
+msgstr "このリンクをクリックして、ログインしてください。"
+
+#: translate.php:99
+msgid "Please click this link to accept or decline the therapist"
+msgstr "このリンクをクリックして、登録許可か不許可を選択してください。"
+
+#: translate.php:100
+msgid ""
+"Your application has been submitted! Please wait for further announcement "
+"from the management"
+msgstr "応募が完了しました。事務局からの連絡をお待ち下さい。"
+
+#: translate.php:101
+msgid "Error"
+msgstr "エラー"
+
+#: translate.php:102
+msgid "Register Therapist"
+msgstr "女の子登録"
+
+#: translate.php:103
+msgid "Therapist List"
+msgstr "女の子リスト"
+
+#: translate.php:104
+msgid "Customer List"
+msgstr "顧客リスト"
+
+#: translate.php:105
+msgid "Settings"
+msgstr "設定"
+
+#: translate.php:106
+msgid "Create Announcement"
+msgstr "通知作成"
+
+#: translate.php:107
+msgid "Create News"
+msgstr "ニュース作成"
+
+#: translate.php:108
+msgid "Logout"
+msgstr "ログアウト"
+
+#: translate.php:109
+msgid "Management"
+msgstr "管理"
+
+#: translate.php:110
+msgid "ACCEPTED"
+msgstr "許可済"
+
+#: translate.php:111
+msgid "ACCEPT"
+msgstr "許可"
+
+#: translate.php:112
+msgid "DECLINED"
+msgstr "不許可"
+
+#: translate.php:113
+msgid "Address"
+msgstr "住所"
+
+#: translate.php:114
+msgid "Password"
+msgstr "パスワード"
+
+#: translate.php:115
+msgid "Save"
+msgstr "保存"
+
+#: translate.php:116
+msgid "Edit Picture"
+msgstr "画像修正"
+
+#: translate.php:117
+msgid "Subject"
+msgstr "件名"
+
+#: translate.php:118
+msgid "News Title"
+msgstr "新しいタイトル"
+
+#: translate.php:119
+msgid "Send"
+msgstr "送信"
+
+#: translate.php:120
+msgid "UNDO"
+msgstr "一つ戻す"
+
+#: translate.php:121
+msgid "Home"
+msgstr ""
+
+#: translate.php:122
+msgid "ID Card"
+msgstr "証明書"
+
+#: translate.php:123
+msgid "ID Upload"
+msgstr "証明書をアップロード"
+
+#: translate.php:124
+msgid "ID Card with Face Photo"
+msgstr "顔写真付証明書"
+
+#: translate.php:125
+msgid "Register"
+msgstr "登録者"
+
+#: translate.php:126 usprofile.html:114
+msgid "Are you sure you want to block this customer?"
+msgstr ""
+
+#: translate.php:127
+msgid "Therapist's Profile"
+msgstr "女の子プロフィール"
+
+#: translate.php:128
+msgid "My Profile"
+msgstr "プロフィール"
+
+#: translate.php:129
+msgid "Therapist"
+msgstr "女の子"
+
+#: translate.php:130
+msgid "ID Card back side"
+msgstr "証明書裏側"
+
+#: translate.php:131
+msgid "Delete Messages"
+msgstr "メッセージ削除"
+
+#: translate.php:132
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: translate.php:133
+msgid "Type a message"
+msgstr ""
+
+#: translate.php:134
+msgid "Profile"
+msgstr "プロフイール"
+
+#: translate.php:135 usprofile.html:66
+msgid "Block"
+msgstr "ブロツク"
+
+#: translate.php:136 usprofile.html:70
+msgid "Edit Profile"
+msgstr "プロフィールの編集"
+
+#: translate.php:137
+msgid "Date"
+msgstr ""
+
+#: translate.php:138
+msgid "Status"
+msgstr ""
+
+#: translate.php:139
+msgid "Option"
+msgstr ""
+
+#: translate.php:140
+msgid "Cancel"
+msgstr ""
+
+#: translate.php:141
+msgid "Cancel Order"
+msgstr ""
+
+#: translate.php:142
+msgid "Order"
+msgstr ""
+
+#: translate.php:143
+msgid "Help"
+msgstr ""
+
+#: translate.php:144
+msgid "Chat"
+msgstr ""
+
+#: translate.php:145
+msgid "Set Schedule"
+msgstr ""
+
+#: translate.php:146
+msgid "Inbox"
+msgstr ""
+
+#: translate.php:147
+msgid "Today"
+msgstr "今日"
+
+#: translate.php:148
+msgid "Log In with Social Network or Mail Address"
+msgstr "SNSを使ってログインするか、メールアドレスでログインをしてください"
+
+#: translate.php:149
+msgid ""
+"By logging in, you agree to Chelpapa's <a href=''>Privacy Policy</a> and <a "
+"href=''>Terms of Use</a>."
+msgstr ""
+"ログインを行った場合、ちぇるぱぱの利用規約および個人情報保護方針に同意をして"
+"いただいたとみなします。"
+
+#: translate.php:150
+msgid "OR"
+msgstr "または"
+
+#: translate.php:151
+msgid "File not found!"
+msgstr "ファイルが見つかりません!"
+
+#: translate.php:152
+msgid "Successful!"
+msgstr "成功!"
+
+#: translate.php:153
+msgid "Email already exist"
+msgstr "このEMailは既に使われています。"
+
+#: translate.php:154
+msgid "Username already exist"
+msgstr "ユーザ名は既に使用されているます。"
+
+#: translate.php:155
+msgid "DECLINE"
+msgstr "不許可"
+
+#~ msgid ""
+#~ "By logging in, you agree to Chelpapa's Privacy Policy and Terms of Use."
+#~ msgstr ""
+#~ "ログインを行った場合、ちぇるぱぱの利用規約および個人情報保護方針に同意をし"
+#~ "ていただいたとみなします。"
+
+#~ msgid "[Any]"
+#~ msgstr "[任意]"
+
+#~ msgid "Must"
+#~ msgstr "[必須]"
+
+#~ msgid "Today can meet soon"
+#~ msgstr "「今日」今すぐ会える"
+
+#~ msgid "Type Kawaii"
+#~ msgstr "カワイイ系"
+
+#~ msgid "Type Kawaii "
+#~ msgstr "カワイイ系"
+
+#~ msgid "Type Clean "
+#~ msgstr "清楚系"
+
+#~ msgid "Type Relax "
+#~ msgstr "癒し系"
+
+#~ msgid "Type Big Sister "
+#~ msgstr "お姉さん系"
+
+#~ msgid "Type Sexy "
+#~ msgstr "セクシー系"
+
+#~ msgid "Type Young Face "
+#~ msgstr "童顔系"
+
+#~ msgid "Type Strange "
+#~ msgstr "不思議系"
+
+#~ msgid "Search "
+#~ msgstr "検索"
+
+#~ msgid "Month "
+#~ msgstr "月"
+
+#~ msgid "Day "
+#~ msgstr "日"
+
+#~ msgid "Mon "
+#~ msgstr "月"
+
+#~ msgid "Tue "
+#~ msgstr "火"
+
+#~ msgid "Wed "
+#~ msgstr "水"
+
+#~ msgid "Thu "
+#~ msgstr "木"
+
+#~ msgid "Fri "
+#~ msgstr "金"
+
+#~ msgid "Sat "
+#~ msgstr "土"
+
+#~ msgid "Sun "
+#~ msgstr "日"
+
+#~ msgid "Today can meet soon "
+#~ msgstr "「今日」今すぐ会える"
+
+#~ msgid "Chelko "
+#~ msgstr "ちぇるこ"
+
+#~ msgid "Cut Over 20 Characters "
+#~ msgstr "最大20文字でカット最大20文字でカット･･･"
+
+#~ msgid "Akihabara "
+#~ msgstr "秋葉原 "
+
+#~ msgid "Shinjuku "
+#~ msgstr "新宿 "
+
+#~ msgid "Shibuya "
+#~ msgstr "渋谷 "
+
+#~ msgid "Gotanda "
+#~ msgstr "五反田 "
+
+#~ msgid "Inner 23 Wards "
+#~ msgstr " 23区内 "
+
+#~ msgid "West Tokyo "
+#~ msgstr "西東京"
+
+#~ msgid "Area "
+#~ msgstr "エリア"
+
+#~ msgid "Information From Chelpapa "
+#~ msgstr "ちぇるぱぱからのお知らせ"
+
+#~ msgid "Information for System Maintenance "
+#~ msgstr "システムメンテナンスのお知らせ"
+
+#~ msgid "If Forgot Password "
+#~ msgstr "パスワードを忘れた方はこちら"
+
+#~ msgid "About Point "
+#~ msgstr "ポイントについてはこちら"
+
+#~ msgid "Text for About 12 Characters "
+#~ msgstr "12文字程度のテキスト･･･"
+
+#~ msgid "Company Informations "
+#~ msgstr "会社概要"
+
+#~ msgid "Member Rules "
+#~ msgstr "会員規約"
+
+#~ msgid "Privacy Policy "
+#~ msgstr "個人情報保護に関して"
+
+#~ msgid "Information for Sales Company "
+#~ msgstr "特定商取引に基づく表記"
+
+#~ msgid "Wanted Agents "
+#~ msgstr "代理店募集"
+
+#~ msgid "Registered type Refle Matching Site[Chelpapa] "
+#~ msgstr "登録型リフレマッチングサイト【ちぇるぱぱ】"
+
+#~ msgid "Wanted Girls | Registered type Refle Matching Site[Chelpapa] "
+#~ msgstr "女の子募集 | 登録型リフレマッチングサイト【ちぇるぱぱ】"
+
+#~ msgid "Wanted Girls "
+#~ msgstr "女の子募集"
+
+#~ msgid "Name "
+#~ msgstr "お名前"
+
+#~ msgid "Must "
+#~ msgstr "[必須]"
+
+#~ msgid "Please Input 2Byte Charactor "
+#~ msgstr "※全角文字で入力してください"
+
+#~ msgid "Phonetic "
+#~ msgstr "フリガナ"
+
+#~ msgid "Please Input 2Byte Character's Phonetic "
+#~ msgstr "※全角カタカナで入力してください"
+
+#~ msgid "Birthday "
+#~ msgstr "生年月日"
+
+#~ msgid "Mail Address "
+#~ msgstr "メールアドレス"
+
+#~ msgid "Please input can approach Mail Address "
+#~ msgstr ""
+#~ "※連絡が取れるメールアドレスを入力してください（PC、携帯どちらでも可能で"
+#~ "す）"
+
+#~ msgid "Please input Single Byte alphabet and number "
+#~ msgstr "※半角英数字で入力してください"
+
+#~ msgid "Telephone Number "
+#~ msgstr "電話番号"
+
+#~ msgid "ex: 0123456789 (Single Charactor and no need space and hyphen) "
+#~ msgstr "例：0123456789（半角数字でスペース、ハイフンは不要です）"
+
+#~ msgid "Please input can approach Telephone Number "
+#~ msgstr "※連絡が取れる電話番号を入力してください"
+
+#~ msgid "Questions "
+#~ msgstr "ご質問等"
+
+#~ msgid "[Any] "
+#~ msgstr "[任意]"
+
+#~ msgid "Please Input for Questions "
+#~ msgstr "※不明点等ございましたらご記入ください。"
+
+#~ msgid "Image File "
+#~ msgstr "画像ファイル"
+
+#~ msgid "Please photograph your identity card up for confirmation. "
+#~ msgstr "ご本人様確認のため身分証明書をアップで撮影してください。"
+
+#~ msgid "Valid Identitiy Card "
+#~ msgstr "【有効な証明書】"
+
+#~ msgid "Driver license "
+#~ msgstr "運転免許証"
+
+#~ msgid "My Number Card "
+#~ msgstr ""
+#~ "個人番号カード(表面) ※マイナンバーが記載されている裏面は送付しないでくださ"
+#~ "い"
+
+#~ msgid "Basic Resident Register Card with Photo "
+#~ msgstr "写真付き住民基本台帳カード"
+
+#~ msgid "Passport "
+#~ msgstr "パスポート"
+
+#~ msgid "Student card(Student only) "
+#~ msgstr "学生証（大学・専門・高専・定時制・通信のみ）"
+
+#~ msgid "Image File 1 "
+#~ msgstr "画像ファイル1"
+
+#~ msgid "Warning "
+#~ msgstr "注意"
+
+#~ msgid "If my numbercard use, dont send backside Picture "
+#~ msgstr ""
+#~ "※個人番号カードでの応募の場合、マイナンバーが記載されている裏面は送付しな"
+#~ "いでください"
+
+#~ msgid ""
+#~ "If Drivers License Card Front side and Back Side different name, please "
+#~ "send Back Side Picture "
+#~ msgstr "※運転免許の表面と裏面で氏名が異なる場合のみ裏面も撮影してください。"
+
+#~ msgid "If dont change name, no need backside "
+#~ msgstr "※氏名に変更がない場合は裏面の撮影不要です"
+
+#~ msgid "Image File 2 "
+#~ msgstr "画像ファイル2"
+
+#~ msgid "Please take a Picture your identity card  and Your Face "
+#~ msgstr "身分証明書(表面)と、顔が一緒に写った状態で撮影してください。"
+
+#~ msgid ""
+#~ "Please photograph with the identification card (front side) and the face "
+#~ "taken together. "
+#~ msgstr "顔が全て確認できる状態で、身分証明書をお持ちください。"
+
+#~ msgid "If cant see your face or Identity Card, Invalid Registrations "
+#~ msgstr ""
+#~ "身分証明書で顔が隠れてしまっていたり、証明書が写ってない場合は無効となりま"
+#~ "す。"
+
+#~ msgid "Image File3 "
+#~ msgstr "画像ファイル3"
+
+#~ msgid ""
+#~ "Send Mail at 3 minutes after registered automatic. If can't Receive It's "
+#~ "possible that mistake mail address "
+#~ msgstr ""
+#~ "ご相談メールを送信後3分以内に受付完了メールを自動配信いたします。メールが"
+#~ "届かない場合は、メールアドレスが間違っている可能性があります。恐れ入ります"
+#~ "が、再度ご入力、ご送信をお願いします。"
+
+#~ msgid "Confirm Input Data "
+#~ msgstr "入力内容を確認する"
+
+#~ msgid "Job Application "
+#~ msgstr "募集"
+
+#~ msgid "Therapist Job Application "
+#~ msgstr "女の子募集"
+
+#~ msgid "Temporary Password "
+#~ msgstr "一時パスワード"
+
+#~ msgid "Username "
+#~ msgstr "ユーザ名"
+
+#~ msgid "Please click this link to login to your account: "
+#~ msgstr "このリンクをクリックして、ログインしてください。"
+
+#~ msgid "Please click this link to accept or decline the therapist "
+#~ msgstr "このリンクをクリックして、登録許可か不許可を選択してください。"
+
+#~ msgid ""
+#~ "Your application has been submitted! Please wait for further announcement "
+#~ "from the management "
+#~ msgstr "応募が完了しました。事務局からの連絡をお待ち下さい。"
+
+#~ msgid "Error "
+#~ msgstr "エラー"
+
+#~ msgid "Register Therapist "
+#~ msgstr "女の子登録"
+
+#~ msgid "Therapist List "
+#~ msgstr "女の子リスト"
+
+#~ msgid "Customer List "
+#~ msgstr "顧客リスト"
+
+#~ msgid "Settings "
+#~ msgstr "設定"
+
+#~ msgid "Create Announcement "
+#~ msgstr "通知作成"
+
+#~ msgid "Create News "
+#~ msgstr "ニュース作成"
+
+#~ msgid "Logout "
+#~ msgstr "ログアウト"
+
+#~ msgid "Management "
+#~ msgstr "ログアウト"
+
+#~ msgid "ACCEPTED "
+#~ msgstr "許可済"
+
+#~ msgid "ACCEPT "
+#~ msgstr "許可"
+
+#~ msgid "DECLINE "
+#~ msgstr "不許可"
+
+#~ msgid "Address "
+#~ msgstr "住所"
+
+#~ msgid "Password "
+#~ msgstr "パスワード"
+
+#~ msgid "Save "
+#~ msgstr "保存"
+
+#~ msgid "Edit Picture "
+#~ msgstr "画像修正"
+
+#~ msgid "Subject "
+#~ msgstr "件名"
+
+#~ msgid "News Title "
+#~ msgstr "新しいタイトル"
+
+#~ msgid "Send "
+#~ msgstr "送信"
+
+#~ msgid ""
+#~ "Send Mail at 3minute after registered automatic. If can't Receive It's "
+#~ "possible that mistake mail address "
+#~ msgstr ""
+#~ "ご相談メールを送信後3分以内に受付完了メールを自動配信いたします。メールが"
+#~ "届かない場合は、メールアドレスが間違っている可能性があります。恐れ入ります"
+#~ "が、再度ご入力、ご送信をお願いします。"
+
+#~ msgid "Please To hold in hand Identity Card and Recognition your Face "
+#~ msgstr "顔が全て確認できる状態で、身分証明書をお持ちください。"

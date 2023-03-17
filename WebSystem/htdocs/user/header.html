@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Auto Innovate DAO - The future of decentralize management">
+		<meta name="title" content="<?=$aPage[4]?> | Auto Innovate DAO">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Auto Innovate DAO | <?=$aPage[4]?></title>
+		
+		<link rel="stylesheet" media="all" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" media="all" href="/css/common.css">
+<?php
+	if(file_exists($ht_path."/css/".$base_dir.".css"))
+	{
+?>
+		<link rel="stylesheet" media="all" href="/css<?=$base_dir?>.css?a">
+<?php
+	}
+	if(trim($aPage[6]) != "none")
+	{
+?>
+		<link rel="stylesheet" media="all" href="/css/<?=trim($aPage[6])?>.css?a">
+<?php
+	}
+?>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript">
+<?php
+	if(isset($mode)) echo "var \$mode = '$mode';\n";
+	echo $extraJS;
+?>		</script>
+<?php
+	if(file_exists($ht_path."/js/" . $aPage[0] . ".js"))
+	{
+?>
+		<script src="/js/<?=$aPage[0]?>.js?a"></script>
+<?php
+	}
+?>	</head>
+	
+	<body>
+		<div class="container-fluid">

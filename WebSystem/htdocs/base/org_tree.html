@@ -1,0 +1,30 @@
+
+		<link href="/css/jhtree/Themes/trontastic/jquery-ui-1.10.4.custom.css" rel="Stylesheet" type="text/css" />
+
+		<div class="container-fluid">
+			<div id="tree">
+				
+			</div>
+		</div>
+
+		<script>
+			/*↓↓↓↓↓↓↓ Drag n Drop Functions for Staff Position Setting ↓↓↓↓↓↓↓*/
+			function allowDrop(ev) {
+				ev.preventDefault();
+			}
+
+			function drag(ev) {
+				ev.preventDefault();
+				// ev.dataTransfer.setData("from_id", ev.target.id);
+				console.log(ev);
+			}
+
+			function drop(ev) {
+				ev.preventDefault();
+				var $from_data_id = ev.dataTransfer.getData("from_id");
+				var $to_data_id = ev.toElement.id;
+
+				process_data($from_data_id, $to_data_id);
+			}
+			/*↑↑↑↑↑↑↑ Drag n Drop Functions for Staff Position Setting ↑↑↑↑↑↑↑*/
+		</script>

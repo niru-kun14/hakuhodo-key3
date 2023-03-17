@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^$  index.php?pageid=base__top&lang=en_US [QSA,L]
+RewriteRule ^(.*)/$ index.php?pageid=$1 [QSA,L]

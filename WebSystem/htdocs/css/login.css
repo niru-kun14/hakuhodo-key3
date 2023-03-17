@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*, .container-fluid {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-left-container {
+  width: 45%;
+  height: 100vh;
+  background-color: #121212;
+  position: relative;
+  padding: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-left-container .login-form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.login-left-container .login-form-container h1 {
+  color: #E0E0E0;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container form .input-container {
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: 1px solid #A1ACB7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1rem;
+  gap: .8rem;
+}
+
+.login-left-container .login-form-container form .input-container svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+}
+
+.login-left-container .login-form-container form .input-container .form-group {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.login-left-container .login-form-container form input[type=text],
+.login-left-container .login-form-container form input[type=password] {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.login-left-container .login-form-container form input[type=text]::-webkit-input-placeholder,
+.login-left-container .login-form-container form input[type=password]::-webkit-input-placeholder {
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container form input[type=text]:-ms-input-placeholder,
+.login-left-container .login-form-container form input[type=password]:-ms-input-placeholder {
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container form input[type=text]::-ms-input-placeholder,
+.login-left-container .login-form-container form input[type=password]::-ms-input-placeholder {
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container form input[type=text]::placeholder,
+.login-left-container .login-form-container form input[type=password]::placeholder {
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container form .btn-login {
+  background: #8C5BEA;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #E0E0E0;
+  width: 100%;
+  padding: 0.4rem 2rem;
+  margin-top: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container .login-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.login-left-container .login-form-container .login-divider span {
+  width: 35%;
+  height: 2px;
+  background-color: #BDBDBD;
+}
+
+.login-left-container .login-form-container .login-divider p {
+  color: #E0E0E0;
+  width: 30%;
+  text-align: center;
+  margin-bottom: 0;
+  letter-spacing: 0.05rem;
+}
+
+.login-left-container .login-form-container .loginOpt-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.login-left-container .login-form-container .loginOpt-btn-container .btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: .2rem;
+  background-color: #F1F4FA;
+}
+
+.login-left-container .login-form-container .loginOpt-btn-container .btn svg {
+  width: 100%;
+  height: 100%;
+}
+
+.login-left-container .login-form-container .form-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: .5rem;
+}
+
+.login-left-container .login-form-container .form-footer p {
+  color: #788088;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+
+.login-left-container .login-form-container .form-footer a {
+  color: #8C5BEA;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.login-left-container .left-design {
+  position: absolute;
+  right: -16.7rem;
+  height: 100vh;
+  width: 20rem;
+  top: 0;
+}
+
+.login-left-container .left-design span {
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.login-left-container .left-design span svg {
+  width: 100%;
+  height: 100%;
+}
+
+.login-right-container {
+  width: 55%;
+  height: 100vh;
+  background: linear-gradient(160.97deg, #C77FCB 12.5%, #A067E0 40.74%, rgba(160, 103, 224, 0.8) 97.05%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-right-container h1 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45.31%, #EDDEF5), to(rgba(237, 222, 245, 0.1)));
+  background: linear-gradient(180deg, #EDDEF5 45.31%, rgba(237, 222, 245, 0.1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 64px;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 15rem;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*, .container-fluid{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-left-container{
+    width:45%;
+    height:100vh;
+    background-color: #121212;
+    position: relative;
+    padding: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .login-form-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h1{
+            color: #E0E0E0;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 0.05rem;
+        }
+
+        form{
+            .input-container{
+                border-radius: 12px;
+                display: flex;
+                width: 100%;
+                border: 1px solid #A1ACB7;
+                align-items: center;
+                padding: 0.4rem 1rem;
+                margin-bottom: 1rem;
+                gap: .8rem;
+
+                svg{
+                    width: 1.2rem;
+                    height: 1.2rem;
+                    display: block;
+                }
+
+                .form-group{
+                    margin-bottom: 0;
+                    width: 100%;
+                }
+            }
+
+            input[type=text],
+            input[type=password]{
+                background-color: transparent;
+                padding: 0;
+                border: none;
+
+                &::placeholder{
+                    letter-spacing: 0.05rem;
+                }
+            }
+    
+            .btn-login{
+                background: #8C5BEA;
+                border-radius: 8px;
+                font-weight: 700;
+                font-size: 16px;
+                color: #E0E0E0;
+                width: 100%;
+                padding: 0.4rem 2rem;
+                margin-top: 2rem;
+                letter-spacing: 0.05rem;
+            }
+        }
+    
+        .login-divider{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+    
+            span{
+                width: 35%;
+                height: 2px;
+                background-color: #BDBDBD;
+            }
+    
+            p{
+                color: #E0E0E0;
+                width: 30%;
+                text-align: center;
+                margin-bottom: 0;
+                letter-spacing: 0.05rem;
+            }
+        }
+    
+        .loginOpt-btn-container{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+    
+            .btn{
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                padding: .2rem;
+                background-color: #F1F4FA;
+    
+                svg{
+                    width: 100%;
+                    height: 100%;
+    
+                }
+            }
+        }
+    
+        .form-footer{
+            display: flex;
+            justify-content: center;
+            gap: .5rem;
+
+            p{
+                color: #788088;
+                letter-spacing: 0.05em;
+                font-size: 14px;
+            }
+    
+            a{
+                color: #8C5BEA;
+                font-size: 14px;
+                letter-spacing: 0.05em;
+            }
+        }
+    }
+
+    .left-design{
+        position: absolute;
+		right: -16.7rem;
+		height: 100vh;
+		width: 20rem;
+        top: 0;
+
+        span{
+            height: 100%;
+			display: block;
+			width: 100%;
+
+            svg{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+}
+
+.login-right-container{
+    width:55%;
+    height:100vh;
+    background: linear-gradient(160.97deg, #C77FCB 12.5%, #A067E0 40.74%, rgba(160, 103, 224, 0.8) 97.05%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        background: linear-gradient(180deg, #EDDEF5 45.31%, rgba(237, 222, 245, 0.1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-size: 64px;
+        text-align: center;
+        font-weight: 600;
+        margin-left: 15rem;
+    }
+}

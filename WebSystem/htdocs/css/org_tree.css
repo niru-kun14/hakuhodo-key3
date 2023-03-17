@@ -1,0 +1,367 @@
+/* .tree
+{
+    zoom: 200%;
+} */
+
+.tree>ul {
+    width: 100%;
+}
+
+.tree * {
+    margin: 0;
+    padding: 0;
+}
+
+.tree ul {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    padding-top: 20px;
+    position: relative;
+}
+
+.tree ul .content-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    padding: 8px 0 0 6px;
+    margin-bottom: 2px;
+    display: none;
+}
+
+.tree .trcont.tr-open .content-container {
+    display: flex;
+}
+
+.tree ul .content-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: calc(100% - 40px);
+    height: 1px;
+    background: #ddd;
+    margin: 0 auto;
+}
+
+
+.tree li {
+    position: relative;
+    /* float: left; */
+    /*display: inline-block;*/
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+}
+
+.tree .content-container li {
+    width: 60px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tree .content-container li.combination::after {
+    position: absolute;
+    content: "";
+    top: -3px;
+    left: -3px;
+    display: block;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border: 3px solid rgba(255, 157, 87, 0.5);
+}
+
+.tree .content-container li .member_photo {
+    position: relative;
+}
+
+.tree .content-container .absence .member_photo::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255 255 255 / 58%);
+}
+
+.tree .content-container li .member_photo img.staff_thumb {
+    width: 60px;
+    height: auto;
+}
+
+.tree .content-container li .member_name {
+    display: block;
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 10px;
+    line-height: 8px;
+    text-align: left;
+    padding: 0 3px;
+}
+
+.tree li .trcont {
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #666;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    background: #fafafa;
+    padding-bottom: 8px;
+}
+
+.tree li .trcont.tr-open {
+    width: 358px;
+}
+
+.tree li .trcont .ac_menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 40px;
+    height: 10px;
+    margin: 0 auto;
+    background: #e5e5e5;
+    border-radius: 6px 6px 0 0;
+}
+
+.tree li .trcont .ac_menu:before {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.tree li .trcont.tr-open .ac_menu:before {
+    bottom: -2px;
+    transform: rotate(135deg);
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+
+.tree li .trcont:hover {
+    opacity: 0.8;
+}
+
+.tree li .trcont img {
+    height: 50px;
+    width: auto;
+}
+
+.ui-widget-content {
+    background: none !important;
+}
+
+.trcont .ui-widget-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 6px 4px 6px;
+    background: none;
+}
+
+.trcont .ui-widget-header .top_img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.trcont .ui-widget-header .top_title {
+    width: calc(100% - 80px);
+    margin-right: 5px;
+    text-align: left;
+}
+
+.trcont .ui-widget-header .section_num {
+    width: 30px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.trcont .ui-widget-header .top_img img.top-thumb {
+    width: 100%;
+    height: auto;
+}
+
+.tree>ul>li {
+    display: inline-block;
+    float: none;
+}
+
+.tree li .trcont .ui-widget-content:hover,
+.tree li .trcont .ui-widget-content:hover+div ul li .trcont .ui-widget-content {}
+
+.tree li .trcont:hover+ul li .after,
+.tree li .trcont:hover+ul li .before,
+.tree li .trcont:hover+ul .before,
+.tree li .trcont:hover+ul ul .before {
+    border-color: #94a0b4;
+}
+
+.tree li.ui-draggable-dragging {
+    background: green;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+.before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 50%;
+    height: 20px;
+}
+
+
+.after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    /*left: 50%;*/
+    /*right: auto;*/
+    border-top: 1px solid #ccc;
+    width: 50%;
+    height: 20px;
+}
+
+.bfrul {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    height: 20px;
+}
+
+.contaftrdrop {
+    border: 2px solid yellow;
+}
+
+.tree li .dragactive>.trcont {
+    border: 1px solid yellow;
+}
+
+.tree li .drophover>.trcont {
+    border: 2px solid red;
+}
+
+.funcbtnb {
+    width: 18px;
+    height: 15px;
+    margin: 1px 1px 1px 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.funcbtna {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-top: 1px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.tfocus {}
+
+.tnode {}
+
+/*---- For Animation when change to other Class ----------*/
+.ui-widget-content {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.zomrval {
+    border: 0;
+    color: #f6931f;
+    font-weight: bold;
+}
+
+.zmrcntr {
+    float: left;
+    width: 40px;
+}
+
+
+.container {
+    margin: 150px auto;
+    max-width: 960px;
+}
+
+#themes {
+    font-size: 1.2em;
+}
+
+#set {
+    border: 2px solid #ddd;
+    padding: 2px;
+    background: #444;
+    width: 350px;
+    height: 30px;
+}
+
+#set a {
+    margin: 2px;
+    border: 1px solid #444;
+    float: left;
+}
+
+#set a:hover {
+    border-color: #fff;
+}
+
+#tree .undo_btn {
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#tree .undo_btn button.undo {
+    width: 100%;
+    height: 100%;
+    appearance: none;
+    outline: none;
+    border: unset;
+    background: #48bbba;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: opacity 0.3s;
+}
+
+#tree .undo_btn button.undo:hover {
+    opacity: 0.8;
+}
+
+#tree .undo_btn button.undo img {
+    width: 60%;
+}
